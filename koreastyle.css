@@ -1,0 +1,81 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: DFkai-sb, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+header div.top {
+  padding: 1rem;
+  background-image: url("./background.png");
+}
+
+header div.top h1 {
+  font-size: 2.5rem;
+}
+
+header div.top h3 {
+  font-size: 1rem;
+}
+
+header nav {
+  background-color: black;
+}
+
+header nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+header nav ul li {
+  padding: 0.8rem 1.2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.25rem;
+  transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
+
+.active {
+  color: yellow;
+}
+
+main {
+  padding: 1rem;
+}
+main p {
+  margin-bottom: 1rem;
+}
+
+section h3 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.player {
+  margin: 2rem;
+  border: 4px solid burlywood;
+}
+.player h4 {
+  font-size: 1.5rem;
+  color: chocolate;
+}
+.player h5 {
+  font-size: 1rem;
+  color: cadetblue;
+}/*# sourceMappingURL=koreastyle.css.map */
